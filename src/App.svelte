@@ -1,14 +1,11 @@
 <script>
   import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
   import './lib/TailwindCSS.svelte'
 </script>
 
 <main>
   <img class="mx-auto" src={logo} alt="Svelte Logo" />
   <h1>Hello world!</h1>
-
-  <Counter />
 
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
